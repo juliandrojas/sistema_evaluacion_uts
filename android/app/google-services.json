@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "858324195483",
+    "project_id": "sistemaevaluaciondocente",
+    "storage_bucket": "sistemaevaluaciondocente.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:858324195483:android:fc24625f16d958cb944e3e",
+        "android_client_info": {
+          "package_name": "com.example.sistema_evaluacion_uts"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCz-Gi5nkovsUiKs6XY07xoDXIRYU3Z8LQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

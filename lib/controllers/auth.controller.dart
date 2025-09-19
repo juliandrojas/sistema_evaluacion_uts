@@ -1,3 +1,5 @@
+import 'package:flutter/material.dart';
+
 class AuthController {
   final String email;
   final String password;
@@ -7,7 +9,7 @@ class AuthController {
 
   // Método
   void login() {
-    print('Iniciando sesión con: $email');
+    debugPrint('Iniciando sesión con: $email');
     // Aquí iría la lógica de login (API, validación, etc.)
   }
 }

@@ -4,7 +4,7 @@ import 'colors.dart';
 
 ButtonStyle customElevatedButtonStyle() {
   return ElevatedButton.styleFrom(
-    foregroundColor: Colors.black, // Texto negro (buena lectura sobre amarillo)
+    foregroundColor: Colors.white, // Texto negro (buena lectura sobre amarillo)
     backgroundColor: colorVerdeInstitucional, // Fondo amarillo-verde UTS
     minimumSize: const Size(88, 48),
     padding: const EdgeInsets.symmetric(horizontal: 24),
@@ -12,6 +12,10 @@ ButtonStyle customElevatedButtonStyle() {
       borderRadius: BorderRadius.circular(8), // Bordes redondeados
     ),
     elevation: 3, // Sombra ligera
-    textStyle: const TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
+    textStyle: const TextStyle(
+      fontSize: 16,
+      fontWeight: FontWeight.bold,
+      color: Colors.white,
+    ),
   );
 }
