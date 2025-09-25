@@ -40,7 +40,6 @@ class _LoginPageState extends State<LoginPage> {
                           BoxFit.contain, // 👈 Mantiene proporciones y no corta
                     ),
                     const SizedBox(height: 16),
-
                     // Título y subtítulo
                     const ListTile(
                       contentPadding:
@@ -71,6 +70,7 @@ class _LoginPageState extends State<LoginPage> {
                       onPressed: () async {
                         final provider = OAuthProvider("microsoft.com");
                         provider.setCustomParameters({
+                          // Tenant: inquilino
                           'tenant': '8c28de3c-6c8e-40a2-beec-bd8827b92802',
                         });
                         await FirebaseAuth.instance.signInWithProvider(
